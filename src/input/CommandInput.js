@@ -23,6 +23,7 @@ class CommandInput extends Component {
         >
           <PromptSymbol>{promptSymbol}</PromptSymbol>
           <StyledInput
+            autoComplete="new-password"
             autoFocus={autoFocus}
             onChange={e => {
               e.persist();
